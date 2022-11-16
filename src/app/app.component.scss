@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: row,
+}
+
+.notelist{
+    width: 50%;
+    border: 3px solid grey;
+    height: 800px
+}
+
+form{
+    width: 50%
+}
+.noteform{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 5px
+}
+
+.content-input{
+    height: 100px
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.deltebtn{
+    margin: 5px
+}
